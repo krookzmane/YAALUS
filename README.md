@@ -1,12 +1,12 @@
-# Script de mise à jour automatique pour Arch Linux
+# Automated Arch Linux Update Script
 
 ## Description
 
-Ce script Bash permet de mettre à jour automatiquement votre système Arch Linux. Il met à jour la base de données des paquets, installe les mises à jour disponibles et redémarre le système si nécessaire.
+This Bash script automates the process of updating your Arch Linux system. It updates the package database, installs available updates, and reboots the system if necessary.
 
-## Utilisation
+## Usage
 
-1. **Enregistrer le script:** Copiez-collez le code dans un fichier nommé `update_arch.sh`.
-2. **Rendre le script exécutable:** Ouvrez un terminal et exécutez la commande suivante :
+1. **Save the script:** Copy and paste the script into a file named `update_arch.sh`.
+2. **Make the script executable:** Open a terminal and run the following command:
    ```bash
    chmod +x update_arch.sh
