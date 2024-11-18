@@ -4,10 +4,11 @@ if [[ $EUID -ne 0 ]]; then
    echo "This script needs to be executed as root. Please use sudo when executing this script."
    exit 1
 fi
+sudo pacman -S yay
 
-sudo pacman -Sy
+yay -Sy
 
-sudo pacman -Su
+yay -Su
 
 sudo systemctl daemon-reload
 sudo systemctl reboot
