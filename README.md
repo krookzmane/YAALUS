@@ -7,6 +7,6 @@ This Bash script automates the process of updating your Arch Linux system. It up
 ## Usage
 
 1. **Download the script:** clone the repo.
-2. **Run the script:** Run the following command:
+2. **Run it:** Run the following command:
    ```bash
    ./update.sh
