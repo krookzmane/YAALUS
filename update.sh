@@ -13,4 +13,4 @@ yay -Su
 sudo systemctl daemon-reload
 sudo systemctl reboot
 
-echo "The system is updatig and will restart if necessary"
+echo "The system is updating and will restart if necessary"
